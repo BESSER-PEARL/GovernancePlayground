@@ -3,7 +3,7 @@
 This project is a playground created to demonstrate our Governance DSL and associated Decision Engine.
 
 # Authors
-- Adem Ait
-- Gwendal Jouneaux
-- Jordi Cabot
-- Javier Luis Cánovas Izquierdo
+- Adem Ait (University of Luxembourg)
+- Gwendal Jouneaux (LIST)
+- Jordi Cabot (LIST & University of Luxembourg)
+- Javier Luis Cánovas Izquierdo (UOC)
