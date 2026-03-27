@@ -50,7 +50,7 @@ Scopes:
 Participants:
     Roles : Maintainers, Reviewers, no-one
     Individuals : (Agent) besser-bot { role: Reviewers },
-    gwendal-jouneaux { role : Reviewers, Maintainers },
+    gwendal-jouneaux { voteValue : 1.0, role : Reviewers },
     ademait { role: Reviewers, Maintainers },
     jcabot { role: Reviewers, Maintainers }
 
