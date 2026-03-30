@@ -50,11 +50,7 @@ Scopes:
 Participants:
     Roles : Maintainers, Reviewers, no-one
     Individuals :
-        (Agent) besser-bot {
-            confidence : 1.0
-            explainability: 1.0
-            role: Reviewers
-            },
+        besser-bot { voteValue : 1.0, role : Reviewers, Maintainers },
         (Agent) som-boss-bot {
             confidence : 0.7
             explainability: 0.6
