@@ -143,7 +143,7 @@ ConsensusPolicy promoteMaintainer {
     DecisionType as StringList : Maintainers
     Participant list : Maintainers
     Conditions :
-        Deadline : 1 days
+        Deadline : 10 days
         LabelCondition pre include : promote
 }
 
@@ -152,6 +152,6 @@ ConsensusPolicy demoteMaintainer {
     DecisionType as StringList : Maintainers
     Participant list : Maintainers
     Conditions :
-        Deadline : 1 days
+        Deadline : 10 days
         LabelCondition pre include : demote
 }
