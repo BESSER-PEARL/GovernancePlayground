@@ -75,7 +75,7 @@ ConsensusPolicy NewFeature {
     DecisionType as BooleanDecision
     Participant list : Maintainers, Reviewers
     Conditions :
-        Deadline feature_deadline : 10 days
+        Deadline feature_deadline : 1 days
 }
 
 LazyConsensusPolicy NewDocumentation {
@@ -83,7 +83,7 @@ LazyConsensusPolicy NewDocumentation {
     DecisionType as BooleanDecision
     Participant list : Maintainers, Reviewers
     Conditions :
-        Deadline feature_deadline : 10 days
+        Deadline feature_deadline : 1 days
 }
 
 AbsoluteMajorityPolicy FixingBugs {
@@ -91,7 +91,7 @@ AbsoluteMajorityPolicy FixingBugs {
     DecisionType as BooleanDecision
     Participant list : Maintainers, Reviewers
     Conditions :
-        Deadline feature_deadline : 10 days
+        Deadline feature_deadline : 1 days
     Parameters:
         ratio : 0.5
 }
@@ -101,7 +101,7 @@ MajorityPolicy FixingDocs {
     DecisionType as BooleanDecision
     Participant list : Maintainers, Reviewers
     Conditions :
-        Deadline feature_deadline : 10 days
+        Deadline feature_deadline : 1 days
     Parameters:
         ratio : 0.5
 }
@@ -117,7 +117,7 @@ ComposedPolicy TriageFeatureRequest {
             DecisionType as BooleanDecision
             Participant list : Maintainers, Reviewers
             Conditions :
-                Deadline : 10 days
+                Deadline : 1 days
                 LabelCondition pre include : triage
                 LabelCondition post : request-accepted
         }
@@ -139,7 +139,7 @@ ConsensusPolicy promoteMaintainer {
     DecisionType as StringList : Maintainers
     Participant list : Maintainers
     Conditions :
-        Deadline : 10 days
+        Deadline : 1 days
         LabelCondition pre include : promote
 }
 
@@ -148,6 +148,6 @@ ConsensusPolicy demoteMaintainer {
     DecisionType as StringList : Maintainers
     Participant list : Maintainers
     Conditions :
-        Deadline : 10 days
+        Deadline : 1 days
         LabelCondition pre include : demote
 }
