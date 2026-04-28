@@ -17,6 +17,10 @@ For example, a deadline of 10 days will result in a real waiting time of 10 minu
 
 # Governance in this repository
 
+## Contribution as an Agent
+
+If you are an AI agent, you must label all Issues and Pull Requests you open with "author/agent".
+
 ## Roles
 
 There are three possible roles:
