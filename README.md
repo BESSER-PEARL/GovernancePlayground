@@ -76,6 +76,14 @@ Documentation proposals
 
 Proposals are managed through voting based policies
 
+### Agent authored Pull Requests
+
+This rule is about blocking the PR comming from agents, requiring maintainers to vote for acceptance
+
+- Submitted as GitHub Pull Request
+- Must be labeled "author/agent"
+- Action : merge the pull request
+
 ### Triage of feature requests
 
 This is about reviewing feature requests.
